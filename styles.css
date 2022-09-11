@@ -1,0 +1,354 @@
+*{
+    font-family: 'DM Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+a:hover{
+    color: inherit;
+}
+.container {
+    max-width: 1440px;
+    
+
+}
+/* FONTS */
+
+.font-t-xl {
+    font-size: 217px;
+    line-height: 304px;
+    color: #212222;
+}
+
+.font-p-xl {
+    font-size: 32px;
+    line-height: 44px;
+}
+
+.font-t-l {
+    font-size: 90px;
+    line-height: 117px;
+}
+
+.font-p-l {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.font-p-m {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.font-t-m {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.font-p-s {
+    font-size: 25px;
+    line-height: 34px;
+}
+
+.font-400{
+    font-weight: 400;
+}
+.font-700 {
+    font-weight: 700;
+}
+
+.white {
+    color: #FFFFFF;
+}
+
+/* Navbar */
+
+.navbar-light .navbar-toggler {
+    border: unset;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+}
+
+nav{
+    margin-top: 40px;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url('assets/img/lines-menue.png');
+}
+
+
+.logo-mbl{
+    display: none;
+}
+
+
+hr {
+    border-top: 0.5px solid #212222;
+   
+}
+
+
+
+.main__content {
+    padding-bottom: 160px;
+}
+
+.heading-bg-image {
+    background-image: url('assets/img/Mug1.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-position-y: 33%;
+    background-position-x: 100%;
+}
+
+ul {
+    list-style-image: url('assets/img/elipse.png');
+  }
+  
+.info {
+    padding-top: 152px;
+    padding-bottom: 140px;
+}
+
+
+
+.products {
+    margin-bottom: 159px;
+}
+
+.product {
+    margin-top: 136px;
+   
+}
+
+
+.black-wh {
+    height: 14px;
+    width: 45px;
+    background-color: #212222;
+    margin-right: 16px;
+  }
+
+.pink-wh {
+    height: 14px;
+    width: 45px;
+    background-color: #FB088C;
+
+}
+
+.product__card {
+    padding-left: 0;
+    position: relative;
+}
+.product__item {
+    position: absolute;
+    z-index: -10;
+}
+
+.product__item-l {
+    transform: translateX(16%) translateY(-16%);
+} 
+
+.product__item-r{
+transform: translateX(71%) translateY(-16%);
+}
+
+.product__r {
+    padding-top: 132px;
+}
+
+.product__color {
+    margin-top: 48px;
+    margin-bottom: 32px;
+}
+
+
+.product-bg-image {
+
+    background-image: url('assets/img/Tshirt1.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-position-y: 33%;
+    background-position-x: 100%;
+
+}
+
+footer {
+    background-color: #212222;
+    
+}
+
+.footer__content {
+    padding-top: 88px;
+    padding-bottom: 96px;
+}
+
+.terms-conds {
+    margin: auto;
+}
+
+.terms-conds > a {
+    text-decoration: underline;
+}
+
+input::placeholder {
+    opacity: 0.5;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 20px;
+    
+}
+
+input {
+    background-color: transparent;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+
+}
+
+
+
+input#email.col-md-12 {
+    padding-left: 0px;
+    margin-bottom: 24px;
+    margin-top: 96px;
+    padding-bottom: 24px;
+}
+
+input#email:focus-visible {
+    outline: auto;
+}
+
+input#email {
+    color: #FFFFFF;
+    padding: 16px;
+}
+
+.submit, input[type=checkbox] {
+    margin-right: 16px;
+}
+
+.contact-us {
+    transform: rotate(90deg) translateX(-3%) translateY(-740px);
+}
+
+.pink-line {
+    height: 2px;
+    width: 45px;
+    background-color: #FB088C;
+    margin-top: 16px;
+    margin-right: 16px;
+
+}
+
+@media(max-width: 768px){
+    
+    .font-p-xl {
+        font-size:24px;
+        line-height: 32px;
+    }
+    .font-t-xl {
+        font-size: 118px;
+        line-height: 105px;
+
+    }
+
+    .font-t-l {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .font-p-l {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .font-t-m {
+        font-size: 18px;
+        line-height: 29px;
+    }
+
+    .font-p-m {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .font-p-s {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    
+
+    nav {
+        margin-top: auto;
+    }
+    .logo-mbl{
+        display: block;
+    }
+
+    .logo-desk {
+        display: none;
+    }
+
+    .heading-bg-image {
+        background-image: url('assets/img/mug-mbl.png');
+        background-position: right;
+        background-repeat: no-repeat;
+        background-position-y: 33%;
+        background-position-x: 100%;
+    }
+
+    .heading {
+        margin-top: 32px;
+        position: relative;
+    }
+
+    .bg-heading {
+        position: absolute;
+        z-index: -16;
+        transform: translateX(20%);
+    }
+
+    .main__content {
+        padding-bottom: 132px;
+    }
+    
+    .info {
+        padding-bottom: 0px;
+    }
+    .contact-us {
+        display: none!important;
+    }
+
+    .product__color {
+        margin-bottom: 0px;
+    }
+
+    .buy {
+        padding-top: 56px;
+    }
+    .submit__btn {
+        margin-top: 32px;
+        margin-bottom: 80px;
+    }
+
+    .product__item-r {
+        transform: translateX(91%) translateY(-8%);
+    }
+
+    .product__item-l {
+        transform: translateX(20%) translateY(-16%);
+    }
+
+    .footer__content {
+        padding-top: 40px;
+        padding-bottom: 48px;
+        padding-left: 0px;
+    }
+}
